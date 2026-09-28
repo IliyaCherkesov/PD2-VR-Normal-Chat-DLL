@@ -11,3 +11,4 @@ CMakeFiles/
 *.ipch
 CMakeCache.txt
 cmake_install.cmake
+.vscode/
