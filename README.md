@@ -37,3 +37,13 @@ build/
 └─ build.ps1
 
 CMakeLists.txt
+
+Build
+Open PowerShell in the repository root and run:   .\build\build.ps1
+
+The resulting DLL will be created at:   out\Release\pd2_vr_chat_buffer.dll
+
+Manual build
+The same build can be performed manually:
+cmake -S . -B out -A x64
+cmake --build out --config Release
